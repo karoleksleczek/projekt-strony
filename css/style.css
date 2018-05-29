@@ -20,7 +20,7 @@ body
 {
   box-sizing: border-box;
   width: 57.6rem;
-  margin: 0 auto;
+  margin: 0 1.5rem;
   padding: 0 1.5rem;
 }
 
@@ -28,6 +28,7 @@ body
 {
   box-sizing: border-box;
   width: 100%;
+ 
 }
 
 .navbar-top-container-fluid
@@ -58,5 +59,42 @@ body
   color: #333333;
 }
 
+.slider-container
+{
+  padding: 0;
+  /* overflow: hidden; */
+}
 
+.main-container
+{
+  background: #fff;
+}
+
+.main-container > article > header > h2
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.main-container > article > header > p
+{
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  color: #333333;
+}
+
+.main-container > article > footer > p
+{
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 6rem;
+
+}
 
