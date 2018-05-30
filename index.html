@@ -12,33 +12,79 @@
 <body>
 <h1 class="hidden">Lorem ipsum</h1>
 
-  <div class="container-fluid navbar-top-container-fluid">
-    <div class="container navbar-top-container">
-      <nav class="navbar-top">
-        <a href="#">
-          <img src="img/navbar-ico.png" srcset="img/navbar-ico.png 1x, img/navbar-ico@2x.png 2x" alt="navbar-top-logo">
-          <span>Lorem ipsum</span>
-        </a>
-      </nav>
-    </div>
+<h1 class="hidden">Lorem Ipsum</h1>
+<div class="container-fluid navbar-top-container-fluid">
+  <div class="container navbar-top-container">
+    <nav class="navbar-top">
+      <h2 class="hidden">Nawigacja główna</h2>
+      <a href="#">
+        <img src="img/navbar-ico.png" srcset="img/navbar-ico.png 1x, img/navbar-ico@2x.png 2x" alt="navbar-top-logo">
+
+        <span>Lorem Ipsum</span>
+      </a>
+    </nav>
   </div>
+</div>
 
-  <section class="container slider-container">
-      <img src="img/sm-header-img.jpg" srcset="img/sm-header-img.jpg 1x, img/sm-header-img@2x.jpg 2x" alt="slider-foto">
-  </section>
+<section class="container slider-container">
+    <picture>
+      <source media="(max-width: 576px)" srcset="img/sm-header-img.jpg 1x, img/sm-header-img@2x.jpg 2x"> 
+    <source 
+      media="(max-width: 992px)" srcset="img/lg-header-img.jpg 1x,img/lg-header-img@2x.jpg 2x"> 
+    <img src="img/lg-header-img.jpg" alt="navbar-top-logo">
+  </picture>
+</section>
 
-  <main class="container main-container">
-    <article>
-      <header>
-        <h2>Lorem ipsum</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime sed expedita, voluptatibus.</p>
-      </header>
+<main class="container main-container">
+  <article>
+    <header>
+      <h2>Lorem Ipsum</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nobis soluta, incidunt amet.
+      </p>
+    </header>
 
-      <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur incidunt necessitatibus libero quasi minus, aspernatur obcaecati facere ipsam velit voluptate id ipsa! Sequi minus dicta laudantium vitae commodi ratione?</p>
-      </footer>
-    </article>
-  </main>
+    <div class="main-container-offers">
+      <figure>
+        <picture>
+            <source media="(max-width: 576px)" srcset="img/sm-ico-1.png 1x, img/sm-ico-1@2x.png 2x"> 
+          <source 
+            media="(max-width: 992px)" srcset="img/lg-ico-1.png 1x,img/lg-ico-1@2x.png 2x"> 
+          <img src="img/lg-ico-1.png" alt="icon-1">
+        </picture>
+        <figcaption> 
+         <h3>Lorem ipsum</h3>
+        </figcaption>
+      </figure>
+      <figure>
+        <picture>
+            <source media="(max-width: 576px)" srcset="img/sm-ico-2.png 1x, img/sm-ico-2@2x.png 2x"> 
+          <source 
+            media="(max-width: 992px)" srcset="img/lg-ico-2.png 1x,img/lg-ico-2@2x.png 2x"> 
+          <img src="img/lg-ico-2.png" alt="icon-2">
+        </picture>
+        <figcaption> 
+         <h3>Lorem ipsum</h3>
+        </figcaption>
+      </figure>
+      <figure>
+        <picture>
+            <source media="(max-width: 576px)" srcset="img/sm-ico-3.png 1x, img/sm-ico-3@2x.png 2x"> 
+          <source 
+            media="(max-width: 992px)" srcset="img/lg-ico-3.png 1x,img/lg-ico-3@2x.png 2x"> 
+          <img src="img/lg-ico-3.png" alt="icon-3">
+        </picture>
+        <figcaption> 
+         <h3>Lorem ipsum</h3>
+        </figcaption>
+      </figure>
+
+    </div>
+    <footer>
+      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, laboriosam magnam sed mollitia aliquid ut magni reiciendis perspiciatis suscipit, quaerat ipsam consequuntur? Quibusdam iste rerum vel ducimus optio voluptatum fuga!</p></footer>
+  </article>
+</main>
+
+
   
 </body>
 </html>

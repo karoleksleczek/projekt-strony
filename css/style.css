@@ -1,14 +1,14 @@
-html 
-{
+html
+{ 
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 62.5%; /*  to jest 10px */
+  font-size: 62.5%; /*To jest 10 px*/ 
   color: #333333;
   font-weight: 400;
 }
 
-body 
+body
 {
-  background: #D8D8D8
+  background: #D8D8D8;
 }
 
 .hidden
@@ -16,11 +16,25 @@ body
   display: none;
 }
 
+p
+{
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+h3
+{
+  font-size: 1.6rem;
+
+}
+
 .container
 {
   box-sizing: border-box;
   width: 57.6rem;
-  margin: 0 1.5rem;
+  margin: 0 auto;
   padding: 0 1.5rem;
 }
 
@@ -28,7 +42,6 @@ body
 {
   box-sizing: border-box;
   width: 100%;
- 
 }
 
 .navbar-top-container-fluid
@@ -36,11 +49,10 @@ body
   background: #fff;
 }
 
-.navbar-top-container
-{
+.navbar-top-container{
   display: flex;
   align-items: center;
-  height: 5rem /* to jest 50px */;
+  height: 5rem; /*To jest 50px*/
 }
 
 .navbar-top > a
@@ -48,53 +60,59 @@ body
   display: flex;
   align-items: center;
   text-decoration: none;
-}
+} 
 
 .navbar-top > a > span
 {
-  padding-left: 1.5rem;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-weight: 600;
   font-size: 1.6rem;
   color: #333333;
+  padding-left: 1.5rem;
 }
 
-.slider-container
-{
+.slider-container{
   padding: 0;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
-.main-container
-{
+.main-container{
   background: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.main-container > article > header > h2
-{
-  display: flex;
-  justify-content: center;
+.main-container > article > header > h2{
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
-  color: #333333;
-}
-
-.main-container > article > header > p
-{
   text-align: center;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 400;
-  color: #333333;
 }
 
-.main-container > article > footer > p
+.main-container-offers
 {
-  text-align: center;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 400;
-  color: #333333;
-  margin-top: 6rem;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem 0;
 }
 
+.main-container-offers > figure
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.main-container-offers > figure:last-child
+{
+  margin-bottom: 0;
+}
+
+.main-container-offers > figure > figcaption >h3
+{
+  font-size: 1.6rem;
+
+}
